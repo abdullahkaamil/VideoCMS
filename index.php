@@ -14,36 +14,140 @@
     <div class="navbar-header">
         <a class="navbar-brand" href="#">Advance Video CMS</a>
     </div>
+    <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Software</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    </nav>
+    <header>
+        <div class="text-center">
+            <h1>The CMS Blog</h1>
+            <p class="lead">the simple blog which made our lives better </p>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-sub bg-light">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="" href="">Technology</a></li>
+                    <li class="nav-item"><a class="" href="">Science</a></li>
+                    <li class="nav-item"><a class="" href="">Cooking</a></li>
+                    <li class="nav-item"><a class="" href="">Socialism</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post">
+                    <h1>The First Post</h1>
+                    <div class="meta small-text">
+                        <a href="#">11-12-2019</a>| <a href="#">Technology</a> | <a href="#">Abdullah kaamil</a>
+                    </div>
+                    <p class="lead">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <a href="#" class="badge badge-secondary">What is Technology? </a>
+                    <a href="#" class="badge badge-secondary">How Technology work? </a>
+                    <a href="#" class="badge badge-secondary">Intro to the Technology? </a>
+                </div>
 
-  <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Software</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Music</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-<header>
-<div class="text-center">
- <h1>the blog</h1>
- <p class="lead"> bloaasfag asfa sf </p>
-</div>
-</header>
+                <div class="post">
+                    <h1>The Second Post</h1>
+                    <div class="meta small-text">
+                        <a href="#">11-12-2019</a>| <a href="#">Technology</a> | <a href="#">Abdullah kaamil</a>
+                    </div>
+                    <p class="lead">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <a href="#" class="badge badge-secondary">What is Technology? </a>
+                    <a href="#" class="badge badge-secondary">How Technology work? </a>
+                    <a href="#" class="badge badge-secondary">Intro to the Technology? </a>
+                </div>
 
+                <div class="post">
+                    <h1>The Third Post</h1>
+                    <div class="meta small-text">
+                        <a href="#">11-12-2019</a>| <a href="#">Technology</a> | <a href="#">Abdullah kaamil</a>
+                    </div>
+                    <p class="lead">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <a href="#" class="badge badge-secondary">What is Technology? </a>
+                    <a href="#" class="badge badge-secondary">How Technology work? </a>
+                    <a href="#" class="badge badge-secondary">Intro to the Technology? </a>
+                </div>
 
+            </div>
+            <div class="col-md-4">
+                <div class="page-header">
+                    <h3>Latest Posts</h3>
+                </div>
+                <div class="list-group custom-sidebar-list">
+                        <a href="" class="list-group-item custom-sidebar-list-item">The First Post</a>
+                        <a href="" class="list-group-item custom-sidebar-list-item">The Second Post</a>
+                        <a href="" class="list-group-item custom-sidebar-list-item">The Third Post</a>
+                </div>
+
+                <div class="page-header">
+                    <h3>Post of the Day</h3>
+                </div>
+                <div class="day-post">
+                    <h3>The Second Post</h3>
+                    <div class="meta small-text">
+                        <a href="#">11-12-2019</a>| <a href="#">Technology</a> | <a href="#">Abdullah kaamil</a>
+                    </div>
+                    <p class="lead">
+                        Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                     <a href="#" class="badge badge-secondary">What is Technology? </a>
+                    <a href="#" class="badge badge-secondary">How Technology work? </a>
+                    <a href="#" class="badge badge-secondary">Intro to the Technology? </a>
+                </div>
+
+                <div class="page-header">
+                    <h3>About Me</h3>
+                </div>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="images/me.jpg" alt="Abdullah Kaamil" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <a href="" class="lead">Website</a><br>
+                    <a href="" class="lead">E-mail</a><br>
+                    <a href="" class="lead">Profile Page</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="padding-65"></div>
+    <div class="navbar fixed-bottom navbar-dark bg-dark">
+        <p class="text-center footer">Copyright &copy; Abdullah Kaamil, 2019</p>
+    </div>
 
 
 
