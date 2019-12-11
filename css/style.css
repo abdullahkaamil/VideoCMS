@@ -1,3 +1,6 @@
+.padding-65{
+    padding: 65px;
+}
 .navbar-custom{
     position: absolute;
     top: 0;
@@ -53,6 +56,7 @@ header{
     border-bottom: 1px solid brown;
     border-left: 0;
     border-right: 0;
+    transition: .5s background, .5s color;
 }
 
 .custom-sidebar-list-item:hover{
@@ -66,4 +70,8 @@ header{
     padding: 10px;
 }
 
+
+.footer {
+    color: white;
+}
 

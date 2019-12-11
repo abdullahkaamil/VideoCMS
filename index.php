@@ -109,6 +109,7 @@
                         <a href="" class="list-group-item custom-sidebar-list-item">The Second Post</a>
                         <a href="" class="list-group-item custom-sidebar-list-item">The Third Post</a>
                 </div>
+
                 <div class="page-header">
                     <h3>Post of the Day</h3>
                 </div>
@@ -125,11 +126,28 @@
                     <a href="#" class="badge badge-secondary">How Technology work? </a>
                     <a href="#" class="badge badge-secondary">Intro to the Technology? </a>
                 </div>
+
+                <div class="page-header">
+                    <h3>About Me</h3>
+                </div>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="images/me.jpg" alt="Abdullah Kaamil" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <a href="" class="lead">Website</a><br>
+                    <a href="" class="lead">E-mail</a><br>
+                    <a href="" class="lead">Profile Page</a>
+                </div>
+            </div>
             </div>
         </div>
     </div>
 
-
+    <div class="padding-65"></div>
+    <div class="navbar fixed-bottom navbar-dark bg-dark">
+        <p class="text-center footer">Copyright &copy; Abdullah Kaamil, 2019</p>
+    </div>
 
 
 
