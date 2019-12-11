@@ -9,8 +9,6 @@
 <body>
 <p>
 the Advance CMS By abdullah kaamil 
-fgdgdg
-
 </p>
 </body>
 </html>
