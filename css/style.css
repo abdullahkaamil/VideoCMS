@@ -12,16 +12,38 @@ header{
     color: white;
 }
 
-.navbar a {
+.navbar-custom a {
     color: white;
 }
 
-.navbar li a {
-   font-size: 18px;
-   font-weight: bold;
+.navbar-custom li a {
+    transition: .5s background-color;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.navbar li a:hover {
-   background: brown;
-   border: maroon 2px solid;
+.navbar-custom li a:hover {
+    background: brown;
+    border: maroon 2px solid;
 }
+
+.navbar-sub a {
+    color: gray;
+    font-size: 16px;
+}
+
+.navbar-sub li a {
+    transition: .5s background-color;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.post{
+    border-bottom: black 2px solid;
+    padding: 30px;
+}
+
+.meta a {
+    color: grey;
+}
+
